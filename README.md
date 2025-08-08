@@ -1,33 +1,33 @@
-# 90-Day-Fintech-AI
-A 90 day intensive study to master AI-driven tools for finance
+# 90-Day Fintech AI Sprint
 
----
+Welcome to my public learning log. Over the next 90 days I will reboot my data-science skills and graduate to building **production-grade AI agents for finance**.
 
-# Day 01 -S&P 500 Data Cleaning
+## Roadmap
+| Stage | Dates | Goal |
+|------|-------|------|
+| 1 – Reboot | W1-W3 | Pandas, ML, Streamlit fundamentals |
+| 2 – Agentic AI | W4-W6 | LangChain, LLM agents, external APIs |
+| 3 – Capstone | W7-W12 | Deployed fintech agent (SACCO monitor / loan-risk bot) |
 
-**Author** : Brian Githinji
-**Date**: 2025-08-08
-**Stage**: 1 - Reboot
+## Daily Log
+| Day | Topic | Notebook |
+|----|-------|----------|
+| 01 | Pandas data cleaning | [🔗](stage-01-reboot/day-01-pandas-cleaning) |
 
-## Objective
-Refresh core Pandas skills by ingesting and cleaning 5 years of daily OHLCV data for all S&P 500 tickers.
-
-## Dataset
- - Source : Kaggle datasets mirror (CSV, 28 MB raw)
- - Rows : 619,040 | Columns: 7(data,open,high,low,close,volume,Name)
-
-## Steps Performed
-1. **Load** – `pd.read_csv(url)` directly from GitHub raw link.
-2. **Parse dates** – `pd.to_datetime(df['date'])`.
-3. **Check missing** – `df.isnull().sum()` → zero missing.
-4. **Persist clean** – Saved as Parquet (`sp500_clean.parquet`) for faster I/O.
-
-
-
-## How to Run
+## How to Reproduce
 ```bash
-cd stage-01-reboot/day-01-pandas-cleaning
-jupyter notebook Day1.ipynb
+git clone git@github.com:<you>/90-day-fintech-ai.git
+cd 90-day-fintech-ai
 
+# each sub-folder has its own requirements.txt
 
----
+Commit & push again:
+
+```bash
+git add README.md
+git commit -m "docs: add root README with roadmap & daily log"
+git push
+
+```
+
+**Feel free to fork and learn alongside me.**
