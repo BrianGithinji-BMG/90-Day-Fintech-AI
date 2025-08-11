@@ -13,7 +13,7 @@ Welcome to my public learning log. Over the next 90 days I will reboot my data-s
 | Day | Topic | Notebook |
 |----|-------|----------|
 | 01 | Pandas data cleaning | [🔗](stage-01-reboot/day-01-pandas-cleaning) |
-
+| 03 | EDA risk and return  | [🔗](https://github.com/BrianGithinji-BMG/90-Day-Fintech-AI/tree/main/stage-01-reboot/day-03-eda-returns)|
 ## How to Reproduce
 ```bash
 git clone git@github.com:<you>/90-day-fintech-ai.git
