@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#0d47a1"             # Deep blue for accents
+backgroundColor="#ffffff"          # White main background
+secondaryBackgroundColor="#f5f5f5" # Light grey panels
+textColor="#262730"                 # Dark grey/black text
+font="sans serif"                   # Optional: "serif", "sans serif", or "monospace"
